@@ -11,7 +11,18 @@ const HEAD = (
     }}
   />
 );
-
+const BODY = (
+  <div
+    style={{
+      width: "10px",
+      height: "100px",
+      background: "black",
+      position: "absolute",
+      top: "120px",
+      right: 0,
+    }}
+  />
+);
 export function HangmanDrawing() {
   return (
     <div
@@ -30,6 +41,7 @@ export function HangmanDrawing() {
         }}
       />
       {HEAD}
+      {BODY}
       <div
         style={{
           height: "10px",
