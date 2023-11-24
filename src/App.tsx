@@ -18,7 +18,16 @@ function App() {
         margin: "0 auto",
         alignItems: "center",
       }}
-    ></div>
+    >
+      <div
+        style={{
+          fontSize: "2rem",
+          textAlign: "center",
+        }}
+      >
+        Lose Win
+      </div>
+    </div>
   );
 }
 
