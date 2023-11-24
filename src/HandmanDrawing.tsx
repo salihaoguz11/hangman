@@ -90,6 +90,7 @@ export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingProps) {
         position: "relative",
       }}
     >
+      {BODY_PARTS.slice(0, numberOfGuesses)}
       <div
         style={{
           height: "50px",
@@ -100,12 +101,7 @@ export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingProps) {
           right: 0,
         }}
       />
-      {HEAD}
-      {BODY}
-      {RIGHT_ARM}
-      {LEFT_ARM}
-      {RIGHT_LEG}
-      {LEFT_LEG}
+
       <div
         style={{
           height: "10px",
