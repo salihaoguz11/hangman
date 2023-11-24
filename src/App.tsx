@@ -31,8 +31,8 @@ function App() {
         Lose Win
       </div>
       <HangmanDrawing />
-      {/* <HangmanWord />
-      <Keyboard /> */}
+      <HangmanWord />
+      {/* <Keyboard /> */}
     </div>
   );
 }
