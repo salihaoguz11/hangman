@@ -32,7 +32,7 @@ function App() {
       </div>
       <HangmanDrawing />
       <HangmanWord />
-      {/* <Keyboard /> */}
+      <Keyboard />
     </div>
   );
 }

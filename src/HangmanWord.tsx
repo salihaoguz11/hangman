@@ -17,6 +17,7 @@ export function HangmanWord() {
           style={{
             borderBottom: ".1em solid black",
           }}
+          key={index}
         >
           <span
             style={{
