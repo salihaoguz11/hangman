@@ -48,7 +48,11 @@ export function Keyboard({
     >
       {KEYS.map((key) => {
         return (
-          <button className={`${styles.btn}`} key={key}>
+          <button
+            onClick={() => addGuessedLetter(key)}
+            className={`${styles.btn}`}
+            key={key}
+          >
             {key}
           </button>
         );
