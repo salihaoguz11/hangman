@@ -56,7 +56,8 @@ function App() {
           textAlign: "center",
         }}
       >
-        Lose Win
+        {isWinner && "Winner! - Refresh to try again"}
+        {isLoser && "Nice Try! - Refresh to try again"}
       </div>
       <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <HangmanWord guessedLetters={guessedLetters} wordToGuess={wordToGuess} />
@@ -67,6 +68,7 @@ function App() {
           )}
           inactiveLetters={incorrectLetters}
           addGuessedLetter={addGuessedLetter}
+          disabled={isWinner || isLoser}
         />
       </div>
     </div>
