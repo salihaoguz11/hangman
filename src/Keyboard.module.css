@@ -15,7 +15,7 @@
   color: #fff;
 }
 
-.btn .inactive {
+.btn.inactive {
   opacity: 0.3;
 }
 
