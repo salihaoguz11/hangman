@@ -8,4 +8,4 @@ https://hangman-one-pi.vercel.app
 
 ## Project Gif
 
-![Project Snapshot](hangman.gif)
+![Project 002  Snapshot](hangman.gif)
