@@ -7,3 +7,5 @@ Hangman game with Typescript, React Js and Module css
 https://hangman-one-pi.vercel.app
 
 ## Project Gif
+
+![Project Snapshot ](hangman.mp4)
